@@ -29,13 +29,13 @@ body {
 
 header {
   grid-area: header;
-  background-color: #df5c53;
+  background-color: #1e8126;
   display: flex;
 }
 
 .navigation {
   margin: auto 0px auto auto;
-  background-color: #eafa73;
+  background-color: #c2c5a8;
   width: 15rem;
 }
 
@@ -43,28 +43,29 @@ header {
   display: flex;
   flex-direction: column;
   grid-area: main;
-  background-color: #3993DD;
+  background-color: #85f1a9;
   overflow: hidden;
 }
 
 .article {
   margin-top: 10px;
-  background-color: #44CF6C;
+  background-color: #1e8126;
   height: 100%;
   display: flex;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .section {
-  background-color: #A9FDAC;
+  background-color: #a9fdac;
   margin: 5px;
-  height: 9rem;
+  height: 23%;
   width: 100%;
 }
 
 .footer-main {
   margin: 5px;
-  background-color: #E0ACD5;
+  background-color: #6eb168;
   width: 100%;
 }
 
@@ -73,18 +74,28 @@ header {
   flex-direction: column;
   align-items: center;
   grid-area: aside;
-  background-color: #13b6c5;
+  background-color: #85f1a9;
   overflow: hidden;
 }
 
 .sectionTwo {
-  background-color: #A9FDAC;
+  background-color: #a9fdac;
+  border: 1px solid #0a470f;
   height: 100vh;
   margin: 5px;
   width: 100%;
 }
 
 .footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   grid-area: footer;
-  background-color: #E0ACD5;
+  background-color: #6eb168;
+}
+
+p {
+  display: flex;
+  text-align: center;
+  font-size: 17px;
 }/*# sourceMappingURL=style.css.map */
