@@ -7,7 +7,6 @@ body {
   width: 100vw;
   height: 100vh;
   padding: 5px;
-  font-family: "Poppins", sans-serif;
   font-size: 20px;
 }
 .container {
@@ -72,10 +71,10 @@ header {
   overflow: hidden;
 }
 .sectionTwo {
+  margin-top: 10px;
   background-color: #a9fdac;
   border:1px solid #0a470f;
   height: 100vh;
-  margin: 5px;
   width: 100%;
 }
 
